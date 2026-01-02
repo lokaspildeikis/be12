@@ -1,0 +1,8 @@
+{
+  "name": "Be1 Racing - Profesionalumo Viršūnė",
+  "description": "Profesionali lenktynių komanda ",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}
