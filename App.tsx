@@ -1,4 +1,3 @@
-
 import React from 'react';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
@@ -8,12 +7,11 @@ import Services from './components/Services';
 import News from './components/News';
 import Partners from './components/Partners';
 import ContactForm from './components/ContactForm';
-import RacingAI from './components/RacingAI';
 import Footer from './components/Footer';
 
 const App: React.FC = () => {
   return (
-    <div className="min-h-screen">
+    <div className="min-h-screen bg-black text-white">
       <Navbar />
       <Hero />
       <About />
@@ -23,7 +21,6 @@ const App: React.FC = () => {
       <Partners />
       <ContactForm />
       <Footer />
-      <RacingAI />
     </div>
   );
 };

@@ -1,5 +1,3 @@
-
-// Fix: Added React import to resolve the 'Cannot find namespace React' error
 import React from 'react';
 
 export interface NavItem {
@@ -24,9 +22,4 @@ export interface NewsItem {
 export interface Partner {
   name: string;
   logo: string;
-}
-
-export interface ChatMessage {
-  role: 'user' | 'assistant';
-  content: string;
 }
